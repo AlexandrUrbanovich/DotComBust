@@ -38,7 +38,7 @@ public class DotComBust {
     private void startPlaying() {
 
         while(!dotComsList.isEmpty()) {
-            String userGuess = helper.getUserInput("Make a move");
+            String userGuess = helper.getUserInput("Сделайте ход");
             checkUserGuess(userGuess);
         }
         finishGame();
